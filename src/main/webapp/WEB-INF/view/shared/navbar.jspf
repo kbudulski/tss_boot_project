@@ -1,0 +1,13 @@
+<nav>
+    <div class="nav-wrapper brown">
+        <a href="${pageContext.request.contextPath}/welcome-page" style="padding-left: 20px; font-size: 30px">TSS
+            Project</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="${pageContext.request.contextPath}/welcome-page">Main</a></li>
+            <li><a href="${pageContext.request.contextPath}/customer/list">Clients</a></li>
+            <li><a href="${pageContext.request.contextPath}/chat/page">Chat</a></li>
+            <li><a href="${pageContext.request.contextPath}/data">Admin Panel</a></li>
+            <li><a href="${pageContext.request.contextPath}/logout">Logout</a></li>
+        </ul>
+    </div>
+</nav>
